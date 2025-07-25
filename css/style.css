@@ -1,0 +1,150 @@
+
+.header-one {
+background-color: #2196f3;
+  padding: 1%;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+}
+
+nav {
+  width: 100%;        
+  height: auto;       
+  background: #C5CAE9;
+  padding: 10px;
+  box-sizing: border-box; 
+}
+.col2{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+}
+
+.col3{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.end-right {
+    text-align: end;
+    gap: 20px
+}
+
+.font {
+    font-family: "Prompt", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+
+}
+.fontsub {
+    font-family: "Prompt", sans-serif;
+  font-weight: 500px;
+  font-style: normal;
+
+}
+.back {
+    background-color: #e8e0e0;
+}
+
+.backtable {
+    background-color: #c3c0c0;
+}
+.backtable2 {
+    background-color: #cdcbbf;
+}
+/* .table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+.td {
+     border: 1px solid black;
+    padding: 5px 10px;
+    text-align: center;
+ } */
+table{
+    width: 100%;
+    border-collapse: collapse;
+    padding: 20px;
+}
+
+table td, table th {
+    border: 2px solid rgb(132, 129, 129); /* เพิ่มเส้นขอบหนาที่ขอบเซลล์ */
+    padding: 10px;
+}
+
+.font2 {
+    font-size: 20px;
+}
+
+.fontcenter {
+    text-align: center;
+}
+
+.mon {
+    border-left: 7px solid rgba(255, 210, 30, 0.999);
+}
+.tue1 {
+    border-left: 7px solid rgb(255, 0, 187);
+}
+
+.tue {
+    border-left: 10px solid rgb(255, 0, 187);
+    border-top: 3px solid rgb(255, 0, 187);
+    border-bottom: 3px solid rgb(255, 0, 187);
+    border-right: 3px solid rgb(255, 0, 187);
+    background-color: rgb(255, 193, 238);
+}
+
+.wed1 {
+    border-left: 7px solid rgb(75, 83, 32);
+}
+
+.wed2 {
+    border-left: 10px solid rgb(79, 144, 47);
+    border-top: 3px solid rgb(79, 144, 47);
+    border-bottom: 3px solid rgb(79, 144, 47);
+    border-right: 3px solid rgb(79, 144, 47);
+    background-color: rgb(194, 206, 124);
+}
+
+.thu1 {
+    border-left: 7px solid rgb(255, 136, 0, 0.999);
+}
+
+.thu2 {
+    border-left: 10px solid rgb(255, 136, 0, 0.999);
+    border-top: 3px solid rgb(255, 136, 0, 0.999);
+    border-bottom: 3px solid rgb(255, 136, 0, 0.999);
+    border-right: 3px solid rgb(255, 136, 0, 0.999);
+    background-color: rgba(255, 204, 145, 0.999);
+}
+
+.fri1 {
+    border-left: 7px solid rgba(33, 173, 152, 0.805);
+}
+
+.fri2 {
+    border-left: 10px solid rgb(33, 173, 152, 0.805);
+    border-top: 3px solid rgb(33, 173, 152, 0.805);
+    border-bottom: 3px solid rgb(33, 173, 152, 0.805);
+    border-right: 3px solid rgb(33, 173, 152, 0.805);
+    background-color: rgba(151, 255, 239, 0.805);
+}
+
+.sat {
+    border-left: 7px solid rgba(234, 82, 221, 0.749)
+}
+
+.sun {
+    border-left: 7px solid rgba(255, 0, 0, 0.725)
+}
+.mt{
+    margin-top: 50px;
+}
+
+
+
+
